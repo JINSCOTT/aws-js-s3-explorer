@@ -1,4 +1,4 @@
-# AWS JavaScript S3 Explorer (v2 alpha)
+# AWS JavaScript S3 Explorer (v2 alpha mod)
 
 Note: if you are looking for the original, view-only version of this tool then please visit the [S3 Explorer](https://github.com/awslabs/aws-js-s3-explorer) page.
 
@@ -8,6 +8,7 @@ The index.html, explorer.js, and explorer.css files in this bucket contain the e
 
 **Important**: unless you explicitly want everyone on the internet to be able to read your S3 bucket, you should ensure that your S3 bucket is **not** public. You can read more at [Security Best Practices for Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/security-best-practices.html).
 
+This version aims to add cloudfront for file download.
 ## Screenshots
 
 Default starting view for public S3 bucket:
