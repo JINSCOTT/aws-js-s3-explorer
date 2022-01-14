@@ -14,47 +14,47 @@ This version aims to add a cloudfront for file delivery.
 Default starting view for public S3 bucket:
 ![Main screen][main-public]
 
-[main-public]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-main-public.png
+[main-public]: ./screenshots/explorer-main-public.png
 
 Default starting view for private S3 bucket:
 ![Main screen][main-private]
 
-[main-private]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-main-private.png
+[main-private]: ./screenshots/explorer-main-private.png
 
 View all objects in folder:
 ![Folder selected screen][folder]
 
-[folder]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-folder.png
+[folder]:./screenshots/explorer-folder.png
 
 View all objects in bucket:
 ![Bucket traversal screen][bucket]
 
-[bucket]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-bucket.png
+[bucket]: ./screenshots/explorer-bucket.png
 
 Upload objects to a bucket:
 ![Bucket upload request screen][bucket-upload]
 
-[bucket-upload]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-upload.png
+[bucket-upload]: ./screenshots/explorer-upload.png
 
 Upload objects to a bucket succeeded:
 ![Bucket upload confirmation screen][bucket-upload-success]
 
-[bucket-upload-success]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-upload-success.png
+[bucket-upload-success]: ./screenshots/explorer-upload-success.png
 
 Delete objects from a bucket:
 ![Bucket object delete request screen][bucket-delete]
 
-[bucket-delete]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-delete.png
+[bucket-delete]: ./screenshots/explorer-delete.png
 
 Delete objects from a bucket succeeded:
 ![Bucket object delete confirmation screen][bucket-delete-success]
 
-[bucket-delete-success]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-delete-success.png
+[bucket-delete-success]: ./screenshots/explorer-delete-success.png
 
 Bucket information:
 ![Bucket information screen][bucket-info]
 
-[bucket-info]: https://raw.githubusercontent.com/awslabs/aws-js-s3-explorer/v2-alpha/screenshots/explorer-info.png
+[bucket-info]: ./screenshots/explorer-info.png
 
 ## Deployment and Use
 
