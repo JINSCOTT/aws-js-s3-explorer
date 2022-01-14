@@ -11,6 +11,7 @@
 // on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
 // either express or implied. See the License for the specific language governing
 // permissions and limitations under the License.
+// Edited Scott Jin to add a column to show url and a matching cloudfront access
 
 /* ESLint file-level overrides */
 /* global AWS bootbox document moment window $ angular:true */
@@ -21,8 +22,8 @@
 
 //Preset buckets
 const presetbuckets = [
-    { name: 'testbucketmki', cloudfront: 'https://di2aqgzia8zan.cloudfront.net' },
-    { name: 'dummy', cloudfront: 'dumfront' },
+    { name: 'bucketname1', cloudfront: 'https://yourcloudfront1.cloudfront.net' },
+    { name: 'bucketname2', cloudfront: 'https://yourcloudfront2.cloudfront.net' },
 ];
 
 const s3ExplorerColumns = {
