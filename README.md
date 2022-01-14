@@ -1,14 +1,14 @@
-# AWS JavaScript S3 Explorer (v2 alpha mod)
+# AWS JavaScript S3 Explorer (v2 alpha modified)
 
-Note: if you are looking for the original, view-only version of this tool then please visit the [S3 Explorer](https://github.com/awslabs/aws-js-s3-explorer) page.
-
-AWS JavaScript S3 Explorer (v2 alpha) is a JavaScript application that uses AWS's JavaScript SDK and S3 APIs to make the contents of an S3 bucket easy to browse via a web browser. We've created this to enable easier sharing and management of objects and data in Amazon S3.
+Note: if you are looking for the original, view-only version of this tool then please visit the [S3 Explorer](https://github.com/awslabs/aws-js-s3-explorer) page.\
+v2 version [S3 Explorer](https://github.com/awslabs/aws-js-s3-explorer/tree/v2-alpha) page.\
+AWS JavaScript S3 Explorer (v2 alpha modified) is a JavaScript application that uses AWS's JavaScript SDK and S3 APIs to make the contents of an S3 bucket easy to browse via a web browser. We've created this to enable easier sharing and management of objects and data in Amazon S3.
 
 The index.html, explorer.js, and explorer.css files in this bucket contain the entire application. A visitor to the index.html page is prompted to enter the name of an Amazon S3 bucket and optionally supply AWS credentials. Upon supplying the required information, the contents of the bucket will be rendered on the page.
 
 **Important**: unless you explicitly want everyone on the internet to be able to read your S3 bucket, you should ensure that your S3 bucket is **not** public. You can read more at [Security Best Practices for Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/security-best-practices.html).
 
-This version aims to add cloudfront for file download.
+This version aims to add a cloudfront for file download.
 ## Screenshots
 
 Default starting view for public S3 bucket:
