@@ -265,14 +265,15 @@ Note the dash (-) between s3-website and the region identifier. Which form is us
 
 ### Add cloudfront
 * Starting in line 24 explorer.js there is
-* 
 ```
 const presetbuckets = [
     { name: 'bucketname1', cloudfront: 'https://yourcloudfront1.cloudfront.net' },
     { name: 'bucketname2', cloudfront: 'https://yourcloudfront2.cloudfront.net' },
 ];
 ```
-* Mimic this pattern by change the names to your bucket name and cloudfront to your host name.
+* Change "name" to your bucket name and "cloudfront" to your host name.
+* Only one cloudfront can beassigned to one bucket.
+* Change the length of the array to increase or dicrease the number of presetbucket.
 * Please make sure that the Cloudfront's origin domain is the bucket used.
 ## Display Options
 
