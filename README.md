@@ -34,27 +34,27 @@ View all objects in bucket:
 Upload objects to a bucket:
 ![Bucket upload request screen][bucket-upload]
 
-[bucket-upload]: ./screenshots/explorer-upload.png
+[bucket-upload]: ./screenshots/bucket-upload.png
 
 Upload objects to a bucket succeeded:
 ![Bucket upload confirmation screen][bucket-upload-success]
 
-[bucket-upload-success]: ./screenshots/explorer-upload-success.png
+[bucket-upload-success]: ./screenshots/bucket-upload-success.png
 
 Delete objects from a bucket:
 ![Bucket object delete request screen][bucket-delete]
 
-[bucket-delete]: ./screenshots/explorer-delete.png
+[bucket-delete]: ./screenshots/bucket-delete.png
 
 Delete objects from a bucket succeeded:
 ![Bucket object delete confirmation screen][bucket-delete-success]
 
-[bucket-delete-success]: ./screenshots/explorer-delete-success.png
+[bucket-delete-success]: ./screenshots/bucket-delete-success.png
 
 Bucket information:
 ![Bucket information screen][bucket-info]
 
-[bucket-info]: ./screenshots/explorer-info.png
+[bucket-info]: ./screenshots/bucket-info.png
 
 ## Deployment and Use
 
