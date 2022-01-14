@@ -8,7 +8,7 @@ The index.html, explorer.js, and explorer.css files in this bucket contain the e
 
 **Important**: unless you explicitly want everyone on the internet to be able to read your S3 bucket, you should ensure that your S3 bucket is **not** public. You can read more at [Security Best Practices for Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/security-best-practices.html).
 
-This version aims to add a cloudfront for file download.
+This version aims to add a cloudfront for file delivery.
 ## Screenshots
 
 Default starting view for public S3 bucket:
@@ -263,6 +263,17 @@ Note that when you configure a bucket for website hosting, the two general forms
 
 Note the dash (-) between s3-website and the region identifier. Which form is used for the endpoint depends on what Region the bucket is in. For a complete list, please see [Amazon S3 Website Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_website_region_endpoints).
 
+### Add cloudfront
+* Starting in line 24 explorer.js there is
+* 
+```
+const presetbuckets = [
+    { name: 'bucketname1', cloudfront: 'https://yourcloudfront1.cloudfront.net' },
+    { name: 'bucketname2', cloudfront: 'https://yourcloudfront2.cloudfront.net' },
+];
+```
+* Mimic this pattern by change the names to your bucket name and cloudfront to your host name.
+* Please make sure that the Cloudfront's origin domain is the bucket used.
 ## Display Options
 
 This application allows visitors to view the contents of a bucket via its folders or by listing out all objects in a bucket. The default view is by folder, but users can choose Initial View: Bucket in Settings to display all objects in the bucket. Note that viewing an entire bucket that contains many objects could overwhelm the browser. We&rsquo;ve successfully tested this application on a bucket with over 30,000 objects, but keep in mind that trying to list too many objects in a browser could lead to a poor user experience.
