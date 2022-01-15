@@ -272,9 +272,12 @@ const presetbuckets = [
 ];
 ```
 * Change "name" to your bucket name and "cloudfront" to your host name.
-* Only one cloudfront can beassigned to one bucket.
+* The download url, rightmost column, should be host name and object name combined as a url.
 * Change the length of the array to increase or dicrease the number of presetbucket.
 * Please make sure that the Cloudfront's origin domain is the bucket used.
+* Only one cloudfront can be assigned to one bucket.
+* Will only work if both bucket name and cloudfront is set.
+
 ## Display Options
 
 This application allows visitors to view the contents of a bucket via its folders or by listing out all objects in a bucket. The default view is by folder, but users can choose Initial View: Bucket in Settings to display all objects in the bucket. Note that viewing an entire bucket that contains many objects could overwhelm the browser. We&rsquo;ve successfully tested this application on a bucket with over 30,000 objects, but keep in mind that trying to list too many objects in a browser could lead to a poor user experience.
